@@ -10,7 +10,6 @@
             <Image Source="Images/dotnet_bot.png" />
             <Image Source="deer.png" />
 
-
         </VerticalStackLayout>
     </ScrollView>
 
