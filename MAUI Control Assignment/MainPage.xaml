@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI_Control_Assignment.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Margin="30,0"
+            >
+            <Image Source="Images/dotnet_bot.png" />
+            <Image Source="deer.png" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
