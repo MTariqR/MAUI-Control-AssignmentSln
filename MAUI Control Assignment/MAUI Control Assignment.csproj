@@ -21,7 +21,7 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>MAUI Control Assignment</ApplicationTitle>
+		<ApplicationTitle>Manga Reader</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.maui_control_assignment</ApplicationId>
@@ -40,8 +40,7 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\tachiyomiappicon.svg" BackgroundColor="#5b5b5b" />
-	
+		<MauiIcon Include="Resources\AppIcon\icon.svg" Color="#f7fefe"/>
 
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
@@ -57,9 +56,7 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <None Remove="Resources\AppIcon\tachiyomiappicon.svg" />
-	</ItemGroup>
+	
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
@@ -90,5 +87,7 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
+
+	
 
 </Project>

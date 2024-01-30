@@ -5,8 +5,9 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MAUI_Control_Assignment"
     Shell.FlyoutBehavior="Disabled"
-    Title="MAUI_Control_Assignment">
-
+    Title="MAUI_Control_Assignment"
+    BackgroundColor="#5b5b5b">
+    
     <ShellContent
         Title="Library"
         ContentTemplate="{DataTemplate local:MainPage}"
