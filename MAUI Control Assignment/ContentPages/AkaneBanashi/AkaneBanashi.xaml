@@ -3,10 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUI_Control_Assignment.AkaneBanashi"
              Title="AkaneBanashi">
-    <VerticalStackLayout>
-        <Label 
+    <VerticalStackLayout BackgroundColor="#5b5b5b">
+        <Frame>
+            <Label
+            FontSize="60"
+            TextColor="Black"
             Text="Akane Banashi"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        </Frame>
     </VerticalStackLayout>
 </ContentPage>

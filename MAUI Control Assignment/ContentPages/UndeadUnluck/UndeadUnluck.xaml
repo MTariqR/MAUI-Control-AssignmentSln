@@ -3,10 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUI_Control_Assignment.UndeadUnluck"
              Title="UndeadUnluck">
-    <VerticalStackLayout>
+    <VerticalStackLayout BackgroundColor="#5b5b5b">
         <Label 
+            FontSize="60"
             Text="Undead Unluck"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+        
     </VerticalStackLayout>
 </ContentPage>

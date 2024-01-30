@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUI_Control_Assignment.KaguraBachi"
              Title="KaguraBachi">
-    <VerticalStackLayout>
+    <VerticalStackLayout BackgroundColor="#5b5b5b">
         <Label 
+            FontSize="60"
             Text="KaguraBachi"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />

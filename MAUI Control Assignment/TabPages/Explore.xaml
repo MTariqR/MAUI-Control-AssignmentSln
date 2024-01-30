@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MAUI_Control_Assignment.Dandadan"
-             Title="Dandadan">
-    <VerticalStackLayout BackgroundColor="#5b5b5b">
+             x:Class="MAUI_Control_Assignment.Explore"
+             Title="Explore"
+             BackgroundColor="#5b5b5b">
+    <VerticalStackLayout>
         <Label 
             FontSize="60"
-            Text="Dandadan"
+            Text="Explore"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>

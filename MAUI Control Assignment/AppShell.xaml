@@ -7,10 +7,34 @@
     Shell.FlyoutBehavior="Disabled"
     Title="MAUI_Control_Assignment"
     BackgroundColor="#5b5b5b">
-    
-    <ShellContent
-        Title="Library"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-    
+
+    <TabBar>
+        <ShellContent
+            Icon="homeicon.png"
+            Title="Library"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+        <ShellContent
+            Icon="notificationsicon.png"
+            Title="NewRelease"
+            ContentTemplate="{DataTemplate local:NewRelease}"
+            Route="NewRelease" />
+        <ShellContent
+            Icon="notificationhistory.png"
+            Title="History"
+            ContentTemplate="{DataTemplate local:History}"
+            Route="History"/>
+        <ShellContent
+            Icon="searchicon.png"
+            Title="Explore"
+            ContentTemplate="{DataTemplate local:Explore}"
+            Route="Explore"/>
+        <ShellContent
+            Icon="hamburgericon.png"
+            Title="More"
+            ContentTemplate="{DataTemplate local:More}"
+            Route="More"/>
+    </TabBar>
+
+
 </Shell>
