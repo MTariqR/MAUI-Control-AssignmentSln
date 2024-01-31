@@ -7,7 +7,7 @@
     <VerticalStackLayout>
         <Label 
             FontSize="60"
-            Text="Histoy"
+            Text="History"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
