@@ -3,11 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUI_Control_Assignment.BokuNoHeroAcademia"
              Title="Boku no Hero Academia">
-    <VerticalStackLayout BackgroundColor="#5b5b5b">
-        <Label 
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="#5b5b5b">
+            <Label 
             FontSize="60"
             Text="Boku no Hero Academia"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-    </VerticalStackLayout>
+            <Frame BackgroundColor="#818cf8">
+                <Label
+                    Text="My Hero Academia (Japanese: 僕のヒーローアカデミア, Hepburn: Boku no Hīrō Akademia) is a Japanese manga series written and illustrated by Kōhei Horikoshi. It has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since July 2014, with its chapters additionally collected into 39 tankōbon volumes as of November 2023. Set in a world where superpowers (called 'Quirks') have become commonplace, the story follows Izuku Midoriya, a boy who was born without a Quirk but still dreams of becoming a superhero himself. He is scouted by the world's greatest hero, All Might, who bestows his Quirk to Midoriya after recognizing his potential, and helps to enroll him in a prestigious high school for superheroes in training."/>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

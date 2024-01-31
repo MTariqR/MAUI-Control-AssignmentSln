@@ -3,11 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUI_Control_Assignment.KaguraBachi"
              Title="KaguraBachi">
-    <VerticalStackLayout BackgroundColor="#5b5b5b">
-        <Label 
+    <ScrollView>
+        <VerticalStackLayout BackgroundColor="#5b5b5b">
+            <Label 
             FontSize="60"
             Text="KaguraBachi"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-    </VerticalStackLayout>
+            <Frame BackgroundColor="#818cf8">
+                <Label
+                    Text="Kagurabachi (カグラバチ) is a Japanese manga series written and illustrated by Takeru Hokazono. It has been serialized in Shueisha's Weekly Shōnen Jump magazine since September 2023. Chihiro Rokuhira, the son of a renowned blacksmith who forged six enchanted swords, seeks a bloody revenge against a gang of sorcerers with the help of a seventh enchanted sword forged by his father before he was assassinated."/>
+            </Frame>
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
