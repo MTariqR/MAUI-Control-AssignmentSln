@@ -3,8 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MAUI_Control_Assignment.MainPage"
              BackgroundColor="#5b5b5b">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="searchicon.png" />
+        <ToolbarItem IconImageSource="filtericon.png" />
+    </ContentPage.ToolbarItems>
 
-    <ScrollView Orientation="Vertical" Margin="25">
+    <ScrollView Orientation="Vertical">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
@@ -26,8 +30,8 @@
                  BorderColor="#5b5b5b"
                  CornerRadius="30"
                  BorderWidth="25"
-                 Aspect="AspectFill"
-                 BackgroundColor="Transparent"/>
+                 Aspect="AspectFit"
+                 BackgroundColor="#5b5b5b"/>
 
                 <ImageButton Grid.Row="0"
                  Grid.Column="1"
@@ -36,8 +40,8 @@
                  BorderColor="#5b5b5b"
                  CornerRadius="30"
                  BorderWidth="25"
-                 Aspect="AspectFill"
-                 BackgroundColor="Transparent"/>
+                 Aspect="AspectFit"
+                 BackgroundColor="#5b5b5b"/>
 
             <ImageButton Grid.Row="1"
                  Grid.Column="0"
@@ -46,8 +50,8 @@
                  BorderColor="#5b5b5b"
                  CornerRadius="30"
                  BorderWidth="25"
-                 Aspect="AspectFill"
-                 BackgroundColor="Transparent"/>
+                 Aspect="AspectFit"
+                 BackgroundColor="#5b5b5b"/>
 
             <ImageButton Grid.Row="1"
                  Grid.Column="1"
@@ -56,8 +60,8 @@
                  BorderColor="#5b5b5b"
                  CornerRadius="30"
                  BorderWidth="25"
-                 Aspect="AspectFill"
-                 BackgroundColor="Transparent"/>
+                 Aspect="AspectFit"
+                 BackgroundColor="#5b5b5b"/>
 
             <ImageButton Grid.Row="2"
                  Grid.Column="0"
@@ -66,8 +70,8 @@
                  BorderColor="#5b5b5b"
                  CornerRadius="30"
                  BorderWidth="25"
-                 Aspect="AspectFill"
-                 BackgroundColor="Transparent"/>
+                 Aspect="AspectFit"
+                 BackgroundColor="#5b5b5b"/>
 
             <ImageButton Grid.Row="2"
                  Grid.Column="1"
@@ -76,8 +80,8 @@
                  BorderColor="#5b5b5b"
                  CornerRadius="30"
                  BorderWidth="25"
-                 Aspect="AspectFill"
-                 BackgroundColor="Transparent"/>
+                 Aspect="AspectFit"
+                 BackgroundColor="#5b5b5b"/>
             
             <ImageButton Grid.Row="3"
                  Grid.Column="0"
@@ -86,8 +90,8 @@
                  BorderColor="#5b5b5b"
                  CornerRadius="30"
                  BorderWidth="25"
-                 Aspect="AspectFill"
-                 BackgroundColor="Transparent"/>
+                 Aspect="AspectFit"
+                 BackgroundColor="#5b5b5b"/>
             
             <ImageButton Grid.Row="3"
                  Grid.Column="1"
@@ -96,8 +100,8 @@
                  BorderColor="#5b5b5b"
                  CornerRadius="30"
                  BorderWidth="25"
-                 Aspect="AspectFill"
-                 BackgroundColor="Transparent"/>
+                 Aspect="AspectFit"
+                 BackgroundColor="#5b5b5b"/>
             
 
 
