@@ -70,6 +70,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="AkaneBanashiChapterOne.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ChainsawMan.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

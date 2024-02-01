@@ -4,7 +4,7 @@
              x:Class="MAUI_Control_Assignment.AkaneBanashi"
              Title="AkaneBanashi">
     <ScrollView>
-        <VerticalStackLayout BackgroundColor="#5b5b5b">
+        <VerticalStackLayout BackgroundColor="#5b5b5b" Spacing="20">
             <Label
             FontSize="60"
             Text="Akane Banashi"
@@ -14,6 +14,8 @@
                 <Label
                     Text="Akane-banashi (Japanese: あかね噺, 'Akane's Story') is a Japanese manga series written by Yuki Suenaga and illustrated by Takamasa Moue. It follows teenager Akane Osaki as she aims to reach the highest rank in rakugo, partly to avenge her father, who was expelled from the profession six years earlier. The rakugo in the series is supervised by professional rakugoka Keiki Hayashiya. Akane-banashi has been serialized in Shueisha's shōnen manga magazine Weekly Shōnen Jump since February 2022, with the chapters collected into nine tankōbon volumes as of December 2023. Viz Media has licensed the series for English release in North America.Akane-banashi has received a positive reception from reviewers and was nominated for the 2022 Next Manga Award, the 16th Manga Taishō, and the 47th Kodansha Manga Award."/>
             </Frame>
+            <Button
+                FontSize="30" TextColor="White" Text="Chapter 1" HorizontalOptions="Start" VerticalOptions="Center" BackgroundColor="Transparent" Clicked="chapter1clicked"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

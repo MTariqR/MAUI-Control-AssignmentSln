@@ -7,4 +7,10 @@ public partial class AkaneBanashi : ContentPage
 	{
 		InitializeComponent();
     }
+
+    private void chapter1clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new AkaneBanashiChapterOne());
+    }
+
 }
